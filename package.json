@@ -1,0 +1,28 @@
+{
+  "name": "react-webpack2-hmr",
+  "version": "0.0.1",
+  "description": "React Webpack 2 HMR demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --history-api-fallback --content-base ./src --open --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "react-hot-loader": "^3.0.0-beta.2",
+    "webpack": "^2.1.0-beta.20",
+    "webpack-dev-server": "^2.1.0-beta.0"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}
